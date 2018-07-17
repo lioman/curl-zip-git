@@ -5,3 +5,5 @@ RUN apk add zip
 RUN apk add tar
 RUN apk add gzip
 RUN apk add git
+RUN apk add lftp
+RUN apk add wput
