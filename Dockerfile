@@ -1,8 +1,6 @@
-from appropriate/curl:latest
+FROM appropriate/curl:latest
 
 RUN apk update
-RUN apk add zip
-RUN apk add tar
-RUN apk add gzip
+RUN apk add zip tar gzip
 RUN apk add git
-RUN apk add lftp
+RUN apk add lftp ca-certificates openssh
